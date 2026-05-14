@@ -1,0 +1,7 @@
+﻿# requirements.txt - ERP Veterinaria
+# Generado por @Programador â€” instalar con: pip install -r requirements.txt
+
+openai>=1.30.0        # Cliente compatible con DeepSeek API (misma interfaz que OpenAI)
+python-dotenv>=1.0.0  # Carga variables de entorno desde .env (nunca hardcodear secrets)
+pytest>=8.0.0         # Framework de pruebas para @QA
+

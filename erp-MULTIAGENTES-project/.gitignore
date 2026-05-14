@@ -1,0 +1,44 @@
+# ============================================================
+# .gitignore - ERP Veterinaria (Proyecto Público)
+# ============================================================
+
+# 🔐 Secretos — NUNCA al repositorio
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+*.whl
+
+# Pytest
+.pytest_cache/
+
+# Logs y sesiones (pueden contener datos sensibles de conversaciones)
+*.log
+logs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporales
+*.tmp
+*.bak

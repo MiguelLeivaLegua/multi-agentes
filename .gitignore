@@ -1,0 +1,47 @@
+# ============================================================
+# .gitignore - Raíz del Proyecto Multiagente ERP Veterinaria
+# ============================================================
+
+# 🔐 Secretos
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# Pytest
+.pytest_cache/
+
+# Logs y sesiones
+*.log
+logs/
+erp-ELEAM-project/logs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporales
+*.tmp
+*.bak
+
+# Archivos no asociados al proyecto
+analisis_system_prompts.md
+.gemini/
